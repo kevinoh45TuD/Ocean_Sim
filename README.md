@@ -1,2 +1,3 @@
-# SpaceBall
-A short recreation of some scenes from the movie Spaceball
+# Ocean Simulation
+
+A short scene based on simulating fish in the ocean.
