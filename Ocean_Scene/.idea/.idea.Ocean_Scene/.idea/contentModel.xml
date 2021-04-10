@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="Bob.cs" t="Include" />
           <e p="Bryan_Scripts" t="Include">
             <e p="Boid.cs" t="Include" />
             <e p="Follow_Path.cs" t="Include" />
@@ -14,6 +15,7 @@
             <e p="Steering_Behaviour.cs" t="Include" />
           </e>
           <e p="Follow.cs" t="Include" />
+          <e p="Ocean_Motion.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
