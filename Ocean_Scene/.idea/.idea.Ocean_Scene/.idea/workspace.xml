@@ -13,6 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ocean_Motion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scene_Manager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/GitHubStuff/Tiddalik/Tiddalik/Assets/Scripts/SetPosition.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bryan_Scripts/Follow_Path.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bryan_Scripts/Path.cs" root0="FORCE_HIGHLIGHTING" />
@@ -29,6 +30,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Follow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ocean_Motion.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bob.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scene_Manager.cs" />
       </list>
     </option>
   </component>
@@ -82,7 +84,8 @@
       <updated>1615168458396</updated>
       <workItem from="1615168462926" duration="3163000" />
       <workItem from="1618073775808" duration="69000" />
-      <workItem from="1618074145052" duration="630000" />
+      <workItem from="1618074145052" duration="1275000" />
+      <workItem from="1618761695096" duration="589000" />
     </task>
     <servers />
   </component>
