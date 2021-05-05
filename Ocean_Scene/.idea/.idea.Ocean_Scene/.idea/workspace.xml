@@ -12,25 +12,30 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Seagull.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ocean_Motion.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scene_Manager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/GitHubStuff/Tiddalik/Tiddalik/Assets/Scripts/SetPosition.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bryan_Scripts/Follow_Path.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bryan_Scripts/Path.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Seagull_Path.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bob.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Follow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Seagull_Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Old/Path.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Path.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Steering_Behaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Boid.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Follow_Path.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Follow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ocean_Motion.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bob.cs" />
         <option value="$PROJECT_DIR$/Assets/Scene_Manager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Steering_Behaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pursue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Seagull.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Seagull_Manager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Seagull_Path.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Seagull.cs" />
       </list>
     </option>
   </component>
@@ -85,7 +90,10 @@
       <workItem from="1615168462926" duration="3163000" />
       <workItem from="1618073775808" duration="69000" />
       <workItem from="1618074145052" duration="1275000" />
-      <workItem from="1618761695096" duration="589000" />
+      <workItem from="1618761695096" duration="1184000" />
+      <workItem from="1620226269535" duration="892000" />
+      <workItem from="1620231593999" duration="563000" />
+      <workItem from="1620232327438" duration="6238000" />
     </task>
     <servers />
   </component>
@@ -102,6 +110,20 @@
             <State>
               <option name="COLUMN_ORDER" />
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
