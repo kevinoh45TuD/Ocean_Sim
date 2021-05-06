@@ -6,6 +6,9 @@
     <e p="C:\Users\Kevin\Documents\GitHub\Ocean_Simu\Ocean_Sim\Ocean_Scene" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="boat.cs" t="Include" />
+        <e p="Fish.cs" t="Include" />
+        <e p="FishManager.cs" t="Include" />
         <e p="FREE Skyboxes - Terrestrial" t="Include">
           <e p="Readme.txt" t="Include" />
         </e>

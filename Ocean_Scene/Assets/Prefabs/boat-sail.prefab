@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4038834947626423396}
   - component: {fileID: 4038834947625424548}
   - component: {fileID: 7566375092485228717}
+  - component: {fileID: 1526763562398591916}
   m_Layer: 0
   m_Name: boat-sail
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4038834947623422052}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: -21.268196, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -94,3 +95,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 63875e8ccfcd3eb4981b8612d314c19a, type: 3}
+--- !u!114 &1526763562398591916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4038834947623422052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2de54a5cd6d14ef49894da70a9f39f56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceOrigin: 200
+  originSpawn: {fileID: 0}
+  moveTimer: 0.1
+  forwardDistance: 6
+  rotateDistance: 15
+  moveAmount: 10
+  spot: 0
+  checkRight: 1
+  rotateTime: 0
+  rotateSpeed: 10
+  newDist: 0
