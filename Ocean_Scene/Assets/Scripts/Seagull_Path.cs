@@ -12,6 +12,8 @@ public class Seagull_Path : MonoBehaviour
 
     public int spotIndex;
 
+    public GameObject cameraManage;
+
     public void Update()
     {
         float dist = Vector3.Distance(pathSpots[spotIndex].position, transform.position);
@@ -26,6 +28,11 @@ public class Seagull_Path : MonoBehaviour
         if (spotIndex >= pathSpots.Length)
         {
             spotIndex = 0;
+        }
+
+        if (spotIndex >= 3)
+        {
+            cameraManage.GetComponent<cameraManager>().nextCamera();
         }
     }
 

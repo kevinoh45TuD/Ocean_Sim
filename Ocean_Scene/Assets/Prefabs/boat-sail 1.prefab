@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 4038834947623422052}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -110,11 +110,11 @@ MonoBehaviour:
   distanceOrigin: 200
   originSpawn: {fileID: 0}
   moveTimer: 0.1
-  forwardDistance: 3
+  forwardDistance: 1
   rotateDistance: -15
   moveAmount: 10
   spot: 0
   checkRight: 0
   rotateTime: 0
-  rotateSpeed: 10
+  rotateSpeed: 0.25
   newDist: 0
