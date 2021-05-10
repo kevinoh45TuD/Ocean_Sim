@@ -6,32 +6,23 @@
     <e p="C:\Users\Kevin\Documents\GitHub\Ocean_Simu\Ocean_Sim\Ocean_Scene" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="boat.cs" t="Include" />
-        <e p="BoatManager.cs" t="Include" />
-        <e p="cameraManager.cs" t="Include" />
-        <e p="Fish1.cs" t="Include" />
-        <e p="FREE Skyboxes - Terrestrial" t="Include">
-          <e p="Readme.txt" t="Include" />
-        </e>
-        <e p="hasCamera.cs" t="Include" />
-        <e p="moveCam.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="boat.cs" t="Include" />
+          <e p="BoatManager.cs" t="Include" />
           <e p="Bob.cs" t="Include" />
+          <e p="cameraManager.cs" t="Include" />
+          <e p="fishFlock.cs" t="Include" />
+          <e p="hasCamera.cs" t="Include" />
+          <e p="kingMove.cs" t="Include" />
+          <e p="moveCam.cs" t="Include" />
           <e p="Ocean_Motion.cs" t="Include" />
-          <e p="Old" t="Include">
-            <e p="Boid.cs" t="Include" />
-            <e p="Follow.cs" t="Include" />
-            <e p="Follow_Path.cs" t="Include" />
-            <e p="Path.cs" t="Include" />
-            <e p="Pursue.cs" t="Include" />
-            <e p="Steering_Behaviour.cs" t="Include" />
-          </e>
           <e p="Scene_Manager.cs" t="Include" />
           <e p="Seagull.cs" t="Include" />
           <e p="Seagull_Manager.cs" t="Include" />
           <e p="Seagull_Path.cs" t="Include" />
+          <e p="sharkMove.cs" t="Include" />
+          <e p="spawnFish.cs" t="Include" />
         </e>
-        <e p="spawnFish.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Ocean_Scene.sln" t="IncludeFlat" />

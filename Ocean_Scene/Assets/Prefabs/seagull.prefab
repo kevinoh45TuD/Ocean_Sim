@@ -395,8 +395,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fcec497fe40fb941beb09e21685da7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  yVal: 0
   xRot: 90
+  yRot: 0
+  zRot: 0
   timeLength: 15
   tempTime: 0
   camDest: {x: 0, y: 45, z: 0}
+  kingFish: {fileID: 0}
+  first: 0
+  fishVector: {x: 0, y: 0, z: 0}
+  sharkMan: {fileID: 6263777342012926163, guid: 0ad163d0263937c4ba9c85b491e5615f,
+    type: 3}
+  sharkPos: {x: 0, y: 0.5, z: 36}

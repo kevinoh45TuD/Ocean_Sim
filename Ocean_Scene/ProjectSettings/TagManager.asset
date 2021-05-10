@@ -7,6 +7,10 @@ TagManager:
   - FollowS
   - CManage
   - SMain
+  - KFish
+  - FinalDestination
+  - end
+  - shark
   layers:
   - Default
   - TransparentFX
