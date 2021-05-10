@@ -1030,7 +1030,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 227732289}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.9, y: 11, z: 0}
+  m_LocalPosition: {x: 9.9, y: 19.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1689930949}
@@ -2198,7 +2198,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &546787561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2302,13 +2302,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 546787560}
-  m_LocalRotation: {x: 0.70710665, y: -0, z: -0, w: 0.70710695}
-  m_LocalPosition: {x: 0, y: 44.1, z: 11.5}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &552659366
 GameObject:
   m_ObjectHideFlags: 0
@@ -2564,7 +2564,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 660579083}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 15, z: 17.54}
+  m_LocalPosition: {x: 76.48, y: 11, z: -38.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 438764084}
@@ -2593,7 +2593,9 @@ MonoBehaviour:
   moveSpeed: 0.5
   arriveDist: 1
   spotIndex: 0
-  cameraManage: {fileID: 0}
+  cameraManage: {fileID: 1471991572}
+  seagullMain: {fileID: 0}
+  isDone: 0
 --- !u!1001 &677873663
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3331,7 +3333,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 870182411}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -32.4, y: 11, z: 30}
+  m_LocalPosition: {x: -32.4, y: 25.9, z: 30}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1689930949}
@@ -4375,7 +4377,7 @@ GameObject:
   - component: {fileID: 1187129574}
   - component: {fileID: 1187129573}
   m_Layer: 0
-  m_Name: FishManager
+  m_Name: BoatManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4393,13 +4395,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27e48191a30b7b94a99fd44e4f16cccd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fishPrefab: {fileID: 1182884428601965313, guid: b4e9a791dc746124b9ebffc341771b71,
-    type: 3}
   boatPrefab: {fileID: 4038834947623422052, guid: 1fd62c8cf545df741a24b354ee85574a,
     type: 3}
   boatPrefab2: {fileID: 4038834947623422052, guid: 8321c6788f51575409dba2b4faae9052,
     type: 3}
-  amountOfFish: 12
   amountOfBoat: 4
   rotateAmount: 15
   boatFLOAT: 0
@@ -5185,7 +5184,7 @@ GameObject:
   - component: {fileID: 1471991573}
   m_Layer: 0
   m_Name: Camera_Manager
-  m_TagString: Untagged
+  m_TagString: CManage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6580,7 +6579,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1759791997}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30, y: 11, z: 70.2}
+  m_LocalPosition: {x: -30, y: 50.8, z: 70.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1689930949}
@@ -7212,7 +7211,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2009359807}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.5, y: 11, z: 15}
+  m_LocalPosition: {x: -11.5, y: 22.8, z: 15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1689930949}

@@ -14,8 +14,17 @@ public class Seagull_Path : MonoBehaviour
 
     public GameObject cameraManage;
 
+    public GameObject seagullMain;
+    public bool isDone;
+
+    public void OnEnable()
+    {
+        //seagullMain = GameObject.FindGameObjectWithTag("SMain");
+    }
+
     public void Update()
     {
+        
         float dist = Vector3.Distance(pathSpots[spotIndex].position, transform.position);
 
         transform.position = Vector3.Lerp(transform.position, pathSpots[spotIndex].position, moveSpeed * Time.deltaTime);
@@ -30,9 +39,12 @@ public class Seagull_Path : MonoBehaviour
             spotIndex = 0;
         }
 
-        if (spotIndex >= 3)
+        if (spotIndex >= 3 && !isDone)
         {
-            cameraManage.GetComponent<cameraManager>().nextCamera();
+            Debug.Log("nxtCamera");
+            isDone = true;
+            //cameraManage.GetComponent<cameraManager>().nextCamera();
+            seagullMain.GetComponent<Seagull>().nextCamera();
         }
     }
 

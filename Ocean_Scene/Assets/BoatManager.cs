@@ -3,13 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FishManager : MonoBehaviour
+public class BoatManager : MonoBehaviour
 {
-    public GameObject fishPrefab;
+    
     public GameObject boatPrefab;
     public GameObject boatPrefab2;
 
-    public int amountOfFish;
+    
     public int amountOfBoat;
 
     public float rotateAmount;
@@ -20,13 +20,6 @@ public class FishManager : MonoBehaviour
     {
         boatFLOAT = 360 / amountOfBoat;
         
-        for (int i = 0; i < amountOfFish; i++)
-        {
-            GameObject Go = Instantiate(fishPrefab, transform.position, transform.rotation);
-            Go.transform.Rotate(0,i * rotateAmount, 0);
-            Go.GetComponent<Fish>().originSpawn = gameObject.transform;
-        }
-
         for (int i = 0; i < amountOfBoat; i++)
         {
             GameObject Go = Instantiate(boatPrefab, transform.position, transform.rotation);

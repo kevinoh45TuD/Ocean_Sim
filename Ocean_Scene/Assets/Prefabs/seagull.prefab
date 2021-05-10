@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 3208393277165448725}
   m_Layer: 0
   m_Name: seagull
-  m_TagString: Untagged
+  m_TagString: SMain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -204,6 +204,7 @@ GameObject:
   - component: {fileID: 8238458825819192439}
   - component: {fileID: 8238458825819192436}
   - component: {fileID: 6784436678024319274}
+  - component: {fileID: 1253262080476241251}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -382,3 +383,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraManager: {fileID: 0}
   whichCamera: 0
+--- !u!114 &1253262080476241251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8238458825819192433}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fcec497fe40fb941beb09e21685da7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yVal: 0
+  xRot: 90
+  timeLength: 15
+  tempTime: 0
+  camDest: {x: 0, y: 45, z: 0}

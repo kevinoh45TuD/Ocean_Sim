@@ -14,6 +14,8 @@ public class Seagull : MonoBehaviour
     public void OnEnable()
     {
         followT = GameObject.FindGameObjectWithTag("FollowS");
+
+        followT.GetComponent<Seagull_Path>().seagullMain = gameObject;
     }
 
     public void Update()
@@ -23,5 +25,15 @@ public class Seagull : MonoBehaviour
         transform.rotation = Quaternion.Lerp(transform.rotation, rotation, lookSpeed * Time.deltaTime);
 
         transform.position = Vector3.MoveTowards(transform.position, followT.transform.position, moveSpeedS * Time.deltaTime);
+    }
+
+    public void nextCamera()
+    {
+        GameObject newCam = Instantiate(camera, camera.transform.position, camera.transform.rotation);
+        newCam.GetComponent<hasCamera>().whichCamera = 1;
+        newCam.GetComponent<moveCam>().enabled = true;
+        
+        Destroy(gameObject.transform.GetChild(0).gameObject);
+        
     }
 }
