@@ -14,11 +14,6 @@ public class Seagull_Manager : MonoBehaviour
 
         public GameObject seagullFollow;
         
-        [Range(1.0f, 20.0f)]
-        public float xMin, xMax;
-        [Range(1.0f, 20.0f)]
-        public float zMin, zMax;
-
         public Vector3 seagullSpawn;
 
         public void OnEnable()

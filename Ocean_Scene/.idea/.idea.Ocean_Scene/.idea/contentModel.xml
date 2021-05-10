@@ -9,7 +9,7 @@
         <e p="boat.cs" t="Include" />
         <e p="BoatManager.cs" t="Include" />
         <e p="cameraManager.cs" t="Include" />
-        <e p="Fish.cs" t="Include" />
+        <e p="Fish1.cs" t="Include" />
         <e p="FREE Skyboxes - Terrestrial" t="Include">
           <e p="Readme.txt" t="Include" />
         </e>

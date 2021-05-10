@@ -41,7 +41,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Steering_Behaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pursue.cs" />
         <option value="$PROJECT_DIR$/Assets/Seagull.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Seagull_Manager.cs" />
         <option value="$PROJECT_DIR$/Assets/Fish.cs" />
         <option value="$PROJECT_DIR$/Assets/boat.cs" />
         <option value="$PROJECT_DIR$/Assets/hasCamera.cs" />
@@ -50,6 +49,7 @@
         <option value="$PROJECT_DIR$/Assets/moveCam.cs" />
         <option value="$PROJECT_DIR$/Assets/FishManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Seagull.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Seagull_Manager.cs" />
       </list>
     </option>
   </component>
@@ -110,7 +110,7 @@
       <workItem from="1620232327438" duration="6238000" />
       <workItem from="1620323491935" duration="6283000" />
       <workItem from="1620482699193" duration="657000" />
-      <workItem from="1620657610180" duration="3648000" />
+      <workItem from="1620657610180" duration="4276000" />
     </task>
     <servers />
   </component>
