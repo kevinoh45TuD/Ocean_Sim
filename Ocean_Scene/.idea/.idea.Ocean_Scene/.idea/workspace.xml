@@ -14,11 +14,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../../ConcernV1.1/Concern-Game-v1.1/Concern Game/Assets/Scripts/GameController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Seagull.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/spawnFish.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/moveCam.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Seagull_Path.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../ConcernV1.1/Concern-Game-v1.1/Concern Game/Assets/Scripts/resourceBox.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Seagull_Manager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Fish.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/boat.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ocean_Motion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/GitHubStuff/Tiddalik/Tiddalik/Assets/Scripts/SetPosition.cs" root0="SKIP_HIGHLIGHTING" />
@@ -26,6 +26,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/cameraManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bob.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/GitHubStuff/Tiddalik/Tiddalik/Assets/Scripts/FrogMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BoatManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Old/Path.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -50,6 +51,7 @@
         <option value="$PROJECT_DIR$/Assets/FishManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Seagull.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Seagull_Manager.cs" />
+        <option value="$PROJECT_DIR$/Assets/spawnFish.cs" />
       </list>
     </option>
   </component>
@@ -110,7 +112,7 @@
       <workItem from="1620232327438" duration="6238000" />
       <workItem from="1620323491935" duration="6283000" />
       <workItem from="1620482699193" duration="657000" />
-      <workItem from="1620657610180" duration="4276000" />
+      <workItem from="1620657610180" duration="5514000" />
     </task>
     <servers />
   </component>
